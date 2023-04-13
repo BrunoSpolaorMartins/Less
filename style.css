@@ -1,0 +1,137 @@
+/* 
+Ordem-> Arquivo css > Tag style > Regras inline do elemento
+1) Regras de tags
+2) Regras de classes
+3) Regras de id 
+*/
+
+@font-face{
+    font-family: alexbrush;
+    src: url('AlexBrush-Regular.ttf');
+}
+
+html{
+    color:rgb(0, 0, 0);
+    background-color: rgb(170, 172, 177);
+    /*background-image: url("./background.jpg");*/
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position:center;
+    background-size:cover;
+}
+
+main{
+    background-color: rgb(241, 194, 194);
+    /*font-family:'alexbrush', cursive;*/
+    font-size:1.5rem;
+    font-style:italic;
+    font-weight:bolder;
+    font-variant: small-caps;
+}
+
+main p{
+    text-indent: 6rem;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+h1, h2, h3{
+    text-align: center;
+}
+
+h1 {
+    color:rgba(19, 199, 43, 0.5);
+}
+
+main h1 {
+    color: #ff00ff;
+}
+
+h2 {
+    color: green;
+}
+
+/*h2:hover{
+    display: none;
+}*/
+
+p {
+    color: yellow;
+}
+
+a:active {
+    color: #ff00ff;
+    cursor: crosshair;
+}
+
+a:visited { 
+    color: red;
+    text-decoration: line-through;
+}
+
+.titulo-aula {
+    text-decoration: underline;
+    letter-spacing: 5px;
+    background-color: rgb(7, 208, 243);
+}
+
+.texto-azul {
+    color: blue;
+}
+
+.texto-vermelho {
+    color: red;
+}
+
+#titulo-primeira-aula {
+    text-decoration: none;
+}
+
+#titulo-segunda-aula {
+    color: brown;
+}
+
+.texto-vermelho .comentario {
+    color: green;
+    text-decoration: none;
+}
+
+.comentario {
+    color: red;
+}
+
+.box{
+    box-sizing:border-box;
+    width: 100px;
+    height: 100px;
+    display: block;
+    color: white;
+    font-size: 3rem;
+    padding: 5px 2px 3px 10px;
+    border: 2px dotted limegreen;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px 0 5px 10px;
+}
+
+.azul{
+    background-color: blue;
+    border-width: 10px 0 5px 3px;
+    border-bottom-style: double;
+    border-radius: 0 0 50px 10px;
+    margin-bottom: 50px;
+}
+
+.verde{
+    background-color: green;
+    border-style: solid;
+    border-top-left-radius: 50px;
+    margin-left: 0;
+}
+
+.vermelho{
+    background-color: red;
+    border-width: 5px;
+    /*border-bottom-width:0;*/
+    border-style: dashed;
+}
